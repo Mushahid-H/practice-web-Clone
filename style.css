@@ -10,7 +10,3 @@ body {
 .nav-item a:hover {
   color: #dc3545;
 }
-
-.nav-item .nav-link a:hover {
-  color: #0aa4e3;
-}
