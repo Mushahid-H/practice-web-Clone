@@ -10,3 +10,7 @@ body {
 .nav-item a:hover {
   color: #dc3545;
 }
+.thrd-sec {
+  background-image: url('https://www.practice-web.com/sliders/banner1-1587908453.jpg');
+  object-fit: contain;
+}
