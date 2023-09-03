@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+}
+.header-nav {
+  background-color: #e4f7ff;
+}
+.nav-item a {
+  color: black;
+}
+.nav-item a:hover {
+  color: #dc3545;
+}
+
+.nav-item .nav-link a:hover {
+  color: #0aa4e3;
+}
