@@ -21,6 +21,8 @@ body {
 .practices-section {
   background-image: url('https://www.practice-web.com/assetsfront/img/cta-bg.jpg');
   z-index: 1;
+  object-position: center;
+  object-fit: cover;
   position: relative;
 }
 .practices-section::before {
