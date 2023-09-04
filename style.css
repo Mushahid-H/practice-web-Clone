@@ -21,7 +21,7 @@ body {
 .practices-section {
   background-image: url('https://www.practice-web.com/assetsfront/img/cta-bg.jpg');
   z-index: 1;
-  object-position: center;
+  background-position: center;
   object-fit: cover;
   position: relative;
 }
@@ -38,4 +38,22 @@ body {
 .central {
   width: 100%;
   height: 100%;
+}
+.calculation-section {
+  background-image: url('https://www.practice-web.com/assetsfront/img/counters-bg.jpg');
+  background-position: bottom;
+  position: relative;
+
+  z-index: 1;
+}
+.calculation-section:before {
+  background-color: rgba(10, 164, 227, 0.8);
+  content: '';
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
 }
