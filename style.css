@@ -57,3 +57,19 @@ body {
   top: 0;
   z-index: -1;
 }
+.capctha input {
+  margin-left: -2rem;
+}
+.capctha p {
+  margin-top: 12px;
+  margin-left: -5rem;
+}
+@media screen and (max-width: 768px) {
+  .capctha input {
+    margin-left: 0px;
+  }
+  .capctha p {
+    margin: 0px;
+    font-size: 20px;
+  }
+}
