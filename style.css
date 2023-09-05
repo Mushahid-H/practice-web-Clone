@@ -64,6 +64,7 @@ body {
   margin-top: 12px;
   margin-left: -5rem;
 }
+
 @media screen and (max-width: 768px) {
   .capctha input {
     margin-left: 0px;
